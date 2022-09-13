@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netfilx Home</title>
+    <!-- <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css"> -->
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css"> -->
+    <style>
+        .firstdiv {
+            background-image: url(../images/netflixbanner.png);
+            background-size: cover;
+            color: #fff;
+        }
+
+        .shaed-background {
+            height: 768px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .brand-name {
+            font-size: 30px;
+            font-weight: bold;
+            color: red;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }
+
+        .login-group {
+            display: flex;
+        }
+
+        select {
+            margin-right: 20px;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            text-align: center;
+        }
+
+        h1 {
+            width: 500px;
+            font-size: 50px;
+        }
+
+        .sec-row {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            background-color: black;
+            color: #fff;
+            padding: 3%;
+            border-top: 5px solid #808080;
+        }
+
+        .sec-row-first-col {
+            padding: 15%;
+        }
+
+        .third-row {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            border-top: 5px solid #808080;
+            padding: 3%;
+            background-color: black;
+            color: #fff;
+        }
+
+        .third-row-sec-col {
+            padding: 10%;
+            margin-top: 10%;
+        }
+
+        .forth-row {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            border-top: 5px solid #808080;
+            padding: 3%;
+            background-color: black;
+            color: #fff;
+        }
+
+        .forth-row-first-col {
+            padding: 10%;
+            margin-top: 10%;
+        }
+
+        .fifth-row {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            border-top: 5px solid #808080;
+            padding: 3%;
+            background-color: black;
+            color: #fff;
+        }
+
+        .fifth-row-sec-col {
+            padding: 10%;
+            margin-top: 10%;
+        }
+
+        footer {
+            background-color: black;
+            color: #737373;
+            border-top: 5px solid #808080;
+        }
+
+        .netflix-footer {
+            display: flex;
+            grid-template-columns: 4fr 4fr 4fr 4fr;
+            text-align: justify;
+            margin-left: 20%;
+            margin-top: 0%;
+            font-size: 15px;
+
+        }
+
+        footer p {
+            margin-left: 22%;
+            margin-top: 5%;
+        }
+
+        .footer-button {
+            width: 10%;
+            margin-left: 22%;
+            margin-top: 1%;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shaed-background firstdiv ">
+        <header>
+            <div class="brand-name"> NETFLIX </div>
+            <div class="login-group">
+                <div class="input-group">
+                    <select class="form-select">
+                        <option>Language</option>
+                        <option>English</option>
+                        <option>हिंदी</option>
+                    </select>
+                </div>
+                <button class="btn btn-danger">Signin</button>
+            </div>
+        </header>
+        <section>
+            <main>
+                <h1>Unlimited movies, TV shows and more.</h1>
+                <h3 class="mt-2">Watch anywhere. Cancel anytime.</h3>
+                <p class="mt-4">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <button class="btn btn-danger"> Get Started <span class="bi bi-chevron-right"></span>
+                    </button>
+                </div>
+
+    </div>
+    <div class="sec-row">
+        <div class="sec-row-first-col">
+            <h1>Enjoy on your TV.</h1>
+            <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+        </div>
+        <div class="sec-row-sec-col">
+            <img src="../images/netfilxtv.png" width="600" height="450">
+        </div>
+    </div>
+    <div class="third-row">
+        <div class="third-row-first-col">
+            <img src="../images/netfilxmobile.png" width="600" height="450">
+        </div>
+        <div class="third-row-sec-col">
+            <h1>Watch everywhere.</h1>
+            <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV. </h3>
+        </div>
+    </div>
+    <div class="forth-row">
+        <div class="forth-row-first-col">
+            <h1>Watch everywhere.</h1>
+            <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV. </h3>
+        </div>
+        <div class="forth-row-sec-col">
+            <img src="../images/netfilxtab.png" width="600" height="450">
+        </div>
+    </div>
+    <div class="fifth-row">
+        <div class="fifth-row-first-col">
+            <img src="../images/netfilxchildren.png" width="600" height="450">
+        </div>
+        <div class="fifth-row-sec-col">
+            <h1>Create profiles for children. </h1>
+            <h4>Send children on adventures with their favourite characters in a space made just for them—free with your
+                membership. </h4>
+        </div>
+    </div>
+    </main>
+    </section>
+    <footer>
+        <p>Questions? Call 000-800-040-1843</p>
+        <div class="netflix-footer">
+            <div>
+                <ul>
+                    <dl>FAQ</dl>
+                    <dl>Investor Relations</dl>
+                    <dl>Privacy</dl>
+                    <dl>Speed Test</dl>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <dl>Help Centre</dl>
+                    <dl>Jobs</dl>
+                    <dl>Cookie Preferences</dl>
+                    <dl>Legal Notices</dl>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <dl>Account</dl>
+                    <dl>Ways to Watch</dl>
+                    <dl>Corporate Information</dl>
+                    <dl>Only on Netflix</dl>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <dl>Media Centre</dl>
+                    <dl>Terms of Use</dl>
+                    <dl>Contact Us</dl>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-button">
+            <select class="form-select" style="background-color: black; color: #737373;">
+                <option>Language</option>
+                <option>English</option>
+                <option>हिंदी</option>
+            </select>
+            <p style="margin-left: 1%;margin-top: 15%;">Netflix India</p>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
